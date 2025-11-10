@@ -1,0 +1,8 @@
+/__pycache__/
+/images/
+/a_preprocess1/
+/b_crop_car/
+/c_preprocess2/
+/d_crop_plate/
+/e_characters/
+
