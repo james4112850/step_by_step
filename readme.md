@@ -10,22 +10,33 @@
   
   <img width="321" height="131" alt="image" src="https://github.com/user-attachments/assets/dbb7e261-8020-47f7-b727-aa9d6b3543a4" />
 
+  讀取raw_images
+  輸出a_preprocess1
+
 - **step_b_crop_car.py**: 從圖像中裁剪車輛。
   
   <img width="315" height="137" alt="image" src="https://github.com/user-attachments/assets/82a856ef-e7cb-49cd-81f5-5e29058b4805" />
 
+  讀取a_preprocess1
+  輸出b_crop_car
 - **step_c_preprocess2.py**: 進一步圖像預處理。
     
   <img width="313" height="138" alt="image" src="https://github.com/user-attachments/assets/8c57824f-ecac-4e6d-9e20-0bf690ab9b17" />
 
+  讀取b_crop_car
+  輸出c_preprocess2
 - **step_d_crop_plate.py**: 從車輛圖像中裁剪車牌。
     
   <img width="326" height="135" alt="image" src="https://github.com/user-attachments/assets/bf0baffd-2d80-434b-bf79-4dab60678443" />
 
+  讀取c_preprocess2
+  輸出d_crop_plate
 - **step_e_characters.py**: 分割車牌字元的步驟。
   
   <img width="407" height="132" alt="image" src="https://github.com/user-attachments/assets/b1684ae1-68a8-4076-a2c5-e97d12467e09" />
-
+  
+  讀取d_crop_plate
+  輸出e_characters
 - **utils.py**: 函式庫(utilitiy functions)。
 
 
